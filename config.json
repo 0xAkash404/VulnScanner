@@ -1,0 +1,22 @@
+{
+  "scanner": {
+    "timeout": 1.5,
+    "max_workers": 100,
+    "port_range": [1, 65535],
+    "max_ports": 65535,
+    "retry_count": 1
+  },
+  "banner_grabbing": {
+    "timeout": 3,
+    "max_banner_size": 4096
+  },
+  "reporting": {
+    "formats": ["pdf"],
+    "output_dir": "reports"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "scanner.log"
+  },
+  "notes": "Edit this file to customize scanner behavior. All settings are optional and will use defaults if not specified."
+}
