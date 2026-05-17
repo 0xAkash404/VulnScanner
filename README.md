@@ -1,16 +1,3 @@
-# AI Image Generator Bot
-
-> A Telegram bot that turns text prompts into AI-generated images.
-
-## Overview
-This bot listens for image-generation commands in Telegram, sends the prompt to an AI image service, and returns the generated image directly in chat.
-
-It is built with `pyTelegramBotAPI` and supports prompt customization, image sizing, and multiple model styles.
-
-## Highlights
-- Generate images from plain text prompts
-- Choose custom width, height, and model values
-- Uses `Pollinations.ai` first, then falls back to `Arta.ai`
 # Vulnerability Scanner
 
 A Python-based network security scanner for discovering open ports, identifying services, grabbing banners, and matching findings against a CVE database.
